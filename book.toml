@@ -7,3 +7,6 @@ title = "物理学入門"
 
 [output.html]
 mathjax-support = true
+
+# github pagesのため、docs にビルド結果を出力
+# mdbook build --dest-dir docs
