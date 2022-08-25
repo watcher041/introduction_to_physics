@@ -2,7 +2,6 @@
 # Summary
 
 [物理学入門](chapter_0.md)
-- [はしがき](chapter_0.md)
 - [物理学における研究法](chapter_1.md)
 - [単位と単位系](chapter_2.md)
 - [長さの単位](chapter_3.md)
