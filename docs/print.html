@@ -160,7 +160,11 @@ $$
 (\ref{a}) は熱拡散方程式です。</p>
 <p>\begin{equation}
 \frac{\partial u}{\partial t} = \alpha \nabla ^2 u \label{b}\tag{2}
-\end{equation}
+\end{equation}</p>
+<p>\begin{eqnarray}
+y &amp;=&amp; x \\
+&amp;=&amp; 1
+\end{eqnarray}
 (\ref{b}) も熱拡散方程式です。</p>
 <div style="break-before: page; page-break-before: always;"></div><h2 id="物理学における研究法"><a class="header" href="#物理学における研究法">物理学における研究法</a></h2>
 <p>　物理学では自然界におけるいろいろな現象を取り扱うが、その扱い方に特徴がある。すなわち、まず現象を分析してその中から大きさの考えられる要素を抜き出す。そして現象をこの要素の間の数量的関係として表す。例えば、空中に弧を描いて飛んでいるボールの運動という現象は、これをボールに与えられた”力”、これに働く”重力”、ボールの”速度”、”位置”、飛んでいる”時間”というように全て大きさの考えられる要素間の関係として捉える。このように大きさの考えられる要素を物理量あるいは単に量という。そして物理法則は一般に物理量の間の数量的関係として表される。物理量の中には例えば体積のように、その大きさだけしか考えられないもの、また力のように、その強弱（大きさ）の他に方向も合わせ考えなければなければならないものなどがあるが、いずれも物理量であることに変わりない。</p>
@@ -254,6 +258,22 @@ $$
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 

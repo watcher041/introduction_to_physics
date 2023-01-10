@@ -9,4 +9,9 @@ $$
 \begin{equation}
 \frac{\partial u}{\partial t} = \alpha \nabla ^2 u \label{b}\tag{2}
 \end{equation}
+
+\begin{eqnarray}
+y &=& x \\\\
+  &=& 1
+\end{eqnarray}
 (\ref{b}) も熱拡散方程式です。

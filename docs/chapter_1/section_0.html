@@ -151,7 +151,11 @@ $$
 (\ref{a}) は熱拡散方程式です。</p>
 <p>\begin{equation}
 \frac{\partial u}{\partial t} = \alpha \nabla ^2 u \label{b}\tag{2}
-\end{equation}
+\end{equation}</p>
+<p>\begin{eqnarray}
+y &amp;=&amp; x \\
+&amp;=&amp; 1
+\end{eqnarray}
 (\ref{b}) も熱拡散方程式です。</p>
 
                     </main>
@@ -183,6 +187,22 @@ $$
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 
